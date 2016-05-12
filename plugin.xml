@@ -23,8 +23,8 @@
     <platform name="android">
 <!--
 		<dependency id="com.google.playservices" url="https://github.com/MobileChromeApps/google-play-services" commit="00f511a8ce332d4586f067240460bfe978ace2ae" />
--->		
-		<dependency id="com.google.playservices@19.0.0" />
+		
+		<dependency id="com.google.playservices@19.0.0" />-->
 		
 	    <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Admob" >
@@ -56,6 +56,7 @@
 		<source-file src="src/android/google-play-services.jar" target-dir="libs" />
 		<source-file src="src/android/version.xml" target-dir="res/values" />
 -->		
+	<framework src="com.google.android.gms:play-services-ads:+" />
 		<!-- cranberrygame end -->
     </platform>
 
